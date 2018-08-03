@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 12 wzq, 12, LIC=X1EY8-3M2W7-VIQ5N-Y0IYR-SP413-PNZM2
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMSTM.DLL V1.66.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TARMSTM.DLL V1.65.0.0
+ 
+<h2>Project:</h2>
+C:\Users\wzqwz\Desktop\HIT_pratice V3\HIT_design1.uvproj
+Project File Date:  07/26/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling encode.c...
+.\mylib\inc\PID\pid.h(42): warning:  #1-D: last line of file ends without a newline
+   										
+.\mylib\inc\ADC\kalman.h(42): warning:  #1-D: last line of file ends without a newline
+   
+mylib\src\ENCODE\encode.c: 2 warnings, 0 errors
+compiling spwm.c...
+compiling reset.c...
+.\mylib\inc\PID\pid.h(42): warning:  #1-D: last line of file ends without a newline
+   										
+.\mylib\inc\ADC\kalman.h(42): warning:  #1-D: last line of file ends without a newline
+   
+mylib\src\reset.c: 2 warnings, 0 errors
+compiling pid.c...
+.\mylib\inc\PID\pid.h(42): warning:  #1-D: last line of file ends without a newline
+   										
+mylib\src\PID\pid.c: 1 warning, 0 errors
+compiling main.c...
+.\mylib\inc\PID\pid.h(42): warning:  #1-D: last line of file ends without a newline
+   										
+.\mylib\inc\ADC\kalman.h(42): warning:  #1-D: last line of file ends without a newline
+   
+User\main.c(97): warning:  #223-D: function "printf" declared implicitly
+  					    printf ("%.3f %.3f  %.3f  %.3f  %.3f \r\n",MotorMsg.Encoder.Pos*360.0/36864,pwm,pid_config.LastError,PID_Motor_I.I,pid_config.OutPut);
+User\main.c: 3 warnings, 0 errors
+compiling init.c...
+.\mylib\inc\PID\pid.h(42): warning:  #1-D: last line of file ends without a newline
+   										
+.\mylib\inc\ADC\kalman.h(42): warning:  #1-D: last line of file ends without a newline
+   
+mylib\init.c: 2 warnings, 0 errors
+compiling stm32f10x_it.c...
+.\mylib\inc\PID\pid.h(42): warning:  #1-D: last line of file ends without a newline
+   										
+.\mylib\inc\ADC\kalman.h(42): warning:  #1-D: last line of file ends without a newline
+   
+User\stm32f10x_it.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=22614 RO-data=534 RW-data=40 ZI-data=2400  
+FromELF: creating hex file...
+".\output\HIT_design1.axf" - 0 Error(s), 12 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
